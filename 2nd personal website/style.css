@@ -14,7 +14,7 @@
     justify-content  : end;
     margin           : 20px;
     font-family      : 'Roboto', sans-serif;
-    color            : #3C3C3C;
+    color  : #3C3C3C;
     font-weight      : 500;
 }
 
@@ -26,7 +26,7 @@ li{
 .font-big{
     font-size        : 70px;
     letter-spacing   : 1px;
-    color            : #363958;
+    color  : #363958;
 }
 
 .font-big-2{
@@ -55,7 +55,7 @@ span{
 
 }
 .hard{
-    color            : #363958;
+    color   : #363958;
 }
 
 .pic-1{
@@ -67,7 +67,7 @@ span{
     text-decoration  : none;
     padding          : 10px 20px;
     background-image : linear-gradient(to right bottom,#FF8063, #F46060) ;
-    color            : white;
+    color            :white;
     border-radius    : 6px;
 }
 
@@ -84,7 +84,7 @@ i{
 }
 
 .latest{
-    color            : #363958;
+    color   : #363958;
     font-family      : 'Bebas Neue', cursive;
     text-align       : center;
     margin           : 100px 0 20px 0;
@@ -116,7 +116,6 @@ row::after{
 } 
 
 .footerimg{
-    margin           : ;
     display          : inline-block;
     margin           : 200px 100px 100px 100px;
 }
@@ -128,7 +127,7 @@ row::after{
  .stay{
     text-align       : center;
     padding-bottom   : 20px;
-    color            : #363958;
+    color  : #363958;
 }
 .connected{
     font-size        : 24px;
