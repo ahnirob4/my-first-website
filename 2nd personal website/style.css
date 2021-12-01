@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin           : 0;
+    padding          : 0;
+    box-sizing       : border-box;
+}
+
+.navbar{
+    display          : flex;
+    text-decoration  : none;
+    justify-content  : end;
+    margin           : 20px;
+    font-family      : 'Roboto', sans-serif;
+    color            : #3C3C3C;
+    font-weight      : 500;
+}
+
+li{
+    list-style       : none;
+    padding          : 20px;
+}
+
+.font-big{
+    font-size        : 70px;
+    letter-spacing   : 1px;
+    color            : #363958;
+}
+
+.font-big-2{
+    font-family      : 'Roboto', sans-serif;
+    font-size        : 16px;
+}
+
+.header-sec{
+    background-repeat: no-repeat;
+    margin-top       : 20px;
+    height           : 500px;
+    display          : flex;
+    align-items      : center;
+    font-family      : 'Bebas Neue', cursive;
+    
+}
+span{
+    color            : #FF8367;
+}
+
+.half-side{
+    float            : left;
+    width            : 50%;
+    margin-left      : 100px;
+    align-items      : center;
+
+}
+.hard{
+    color            : #363958;
+}
+
+.pic-1{
+    height           : 500px;
+}
+.btn{
+    font-family      : 'Roboto', sans-serif;
+    font-weight      : 500;
+    text-decoration  : none;
+    padding          : 10px 20px;
+    background-image : linear-gradient(to right bottom,#FF8063, #F46060) ;
+    color            : white;
+    border-radius    : 6px;
+}
+
+/* Header End */
+
+/* Middle Start */
+
+.about{
+    font-size        : 50px;
+    color            : #363958;
+}
+i{
+    color            : #F46060;
+}
+
+.latest{
+    color            : #363958;
+    font-family      : 'Bebas Neue', cursive;
+    text-align       : center;
+    margin           : 100px 0 20px 0;
+    font-size        : 48px;
+}
+
+.column{
+    float            : left;
+    width            : 31%;
+    box-shadow       : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin           : 10px;
+}
+
+row::after{
+    content          : "";
+    clear            : both;
+    display          : table;
+    
+}
+
+.picture{
+    width            : 100%;
+}
+
+.hardrock{
+    padding          : 5px 25px;
+    font-family      : 'Roboto', sans-serif;
+    padding-bottom   : 20px;
+} 
+
+.footerimg{
+    margin           : ;
+    display          : inline-block;
+    margin           : 200px 100px 100px 100px;
+}
+
+.footer{
+    width            : 100%;
+}
+
+ .stay{
+    text-align       : center;
+    padding-bottom   : 20px;
+    color            : #363958;
+}
+.connected{
+    font-size        : 24px;
+    font-family      : 'Bebas Neue', cursive;
+}
+
+.hello{
+    font-size        : 36px;
+    font-family      : 'roboto', cursive;
+    font-weight      : 700;
+}
+
+.footer3{
+    height           : 40px;
+    margin           : 5px;
+    text-align       : center;
+} 
+
